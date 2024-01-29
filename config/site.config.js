@@ -52,12 +52,6 @@ module.exports = {
       name: 'GitHub',
       link: '',
     },
-
-    {
-      name: 'Test',
-      link: 'prescafecrew.com',
-    },
-    
   ],
 
   // This is a day.js-style datetime format string to format datetimes in the app. Ref to
