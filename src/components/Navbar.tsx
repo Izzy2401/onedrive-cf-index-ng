@@ -65,6 +65,21 @@ const Navbar = () => {
           <span className="hidden font-bold sm:block">{siteConfig.title}</span>
         </Link>
 
+      <div class="dropdown">
+        <button class="dropbtn">External Sites 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="https://www.example.com">Site 1</a>
+          <a href="https://www.example2.com">Site 2</a>
+          <a href="https://www.example3.com">Site 3</a>
+          <a href="https://www.example4.com">Site 4</a>
+          <a href="https://www.example5.com">Site 5</a>
+        </div>
+      </div>
+
+
+        
         <div className="flex flex-1 items-center space-x-4 text-gray-700 md:flex-initial">
           <button
             className="flex flex-1 items-center justify-between rounded-lg bg-gray-100 px-2.5 py-1.5 hover:opacity-80 dark:bg-gray-800 dark:text-white md:w-48"
@@ -81,15 +96,6 @@ const Navbar = () => {
               </div>
               <div className="rounded-lg bg-gray-200 px-2 py-1 text-xs font-medium dark:bg-gray-700">K</div>
             </div>
-          </button>
-
-          <button
-            className="flex flex-1 items-center justify-between rounded-lg bg-gray-100 px-2.5 py-1.5 hover:opacity-80 dark:bg-gray-800 dark:text-white md:w-48"
-            onClick={openSearchBox}
-          >
-            
-             
-        
           </button>
 
           {siteConfig.links.length !== 0 &&
