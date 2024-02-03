@@ -13,7 +13,7 @@ import siteConfig from '../../config/site.config'
 import SearchModal from './SearchModal'
 import useDeviceOS from '../utils/useDeviceOS'
 
-import { Dropdown } from 'react-bootstrap/Dropdown' //We added this
+import { Dropdown } from 'react-bootstrap-dropdown' //We added this
 
 const Navbar = () => {
   const router = useRouter()
