@@ -65,11 +65,11 @@ const Navbar = () => {
           <span className="hidden font-bold sm:block">{siteConfig.title}</span>
         </Link>
 
-      <div class="dropdown">
-        <button class="dropbtn">External Sites 
-          <i class="fa fa-caret-down"></i>
+      <div className="dropdown">
+        <button className="dropbtn">External Sites 
+          <i className="fa fa-caret-down"></i>
         </button>
-        <div class="dropdown-content">
+        <div className="dropdown-content">
           <a href="https://www.example.com">Site 1</a>
           <a href="https://www.example2.com">Site 2</a>
           <a href="https://www.example3.com">Site 3</a>
