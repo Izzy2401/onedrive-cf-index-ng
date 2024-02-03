@@ -13,8 +13,6 @@ import siteConfig from '../../config/site.config'
 import SearchModal from './SearchModal'
 import useDeviceOS from '../utils/useDeviceOS'
 
-import { Dropdown } from 'react-bootstrap-dropdown' //We added this
-
 const Navbar = () => {
   const router = useRouter()
   const os = useDeviceOS()
@@ -55,24 +53,6 @@ const Navbar = () => {
     }, 1000)
   }
 
-function BasicExample() {
-  return (
-    <Dropdown>
-      <Dropdown.Toggle variant="success" id="dropdown-basic">
-        Dropdown Button
-      </Dropdown.Toggle>
-
-      <Dropdown.Menu>
-        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-      </Dropdown.Menu>
-    </Dropdown>
-  );
-}
-
-
-  
   return (
     <div className="sticky top-0 z-[100] border-b border-gray-900/10 bg-white bg-opacity-80 backdrop-blur-md dark:border-gray-500/30 dark:bg-gray-900">
       <Toaster />
@@ -85,9 +65,6 @@ function BasicExample() {
           <span className="hidden font-bold sm:block">{siteConfig.title}</span>
         </Link>
 
-      
-
-        
         <div className="flex flex-1 items-center space-x-4 text-gray-700 md:flex-initial">
           <button
             className="flex flex-1 items-center justify-between rounded-lg bg-gray-100 px-2.5 py-1.5 hover:opacity-80 dark:bg-gray-800 dark:text-white md:w-48"
@@ -210,5 +187,5 @@ function BasicExample() {
     </div>
   )
 }
-export default BasicExample;
+
 export default Navbar
