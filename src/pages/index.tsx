@@ -21,18 +21,7 @@ export default function Home() {
             <Breadcrumb />
             <SwitchLayout />
 
-            <div class="dropdown">
-    <button class="dropbtn">External Sites 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="https://www.example.com%22%3Esite/ 1</a>
-      <a href="https://www.example2.com%22%3Esite/ 2</a>
-      <a href="https://www.example3.com%22%3Esite/ 3</a>
-      <a href="https://www.example4.com%22%3Esite/ 4</a>
-      <a href="https://www.example5.com%22%3Esite/ 5</a>
-    </div>
-  </div>
+           
             
           </nav>
           <FileListing />
