@@ -78,8 +78,8 @@ dependencies:
     specifier: ^18.2.0
     version: 18.2.0
   react-bootstrap:
-    specifier: ^2.9.0
-    version: 2.9.0
+    specifier: ^2.10.0
+    version: 2.10.0
   react-async-hook:
     specifier: ^4.0.0
     version: 4.0.0(react@18.2.0)
@@ -999,8 +999,8 @@ packages:
       '@types/scheduler': 0.16.4
       csstype: 3.1.2
 
-   /@types/react-bootstrap@2.9.0:
-    resolution: {integrity: sha512-A0zjq+QN/O0Kpe30hA1GidzyFjatVvrpIvWLxD+xv67Vt91TWWgco9IvrJBkeyHm1trGaFS/FSGqPlhyeZRm0g==}
+   /@types/react-bootstrap@2.10.0:
+    resolution: {integrity: sha512-2ffb444371b69989d28c64141e80f4988d5d3e24e6091fb4174a5d2800a73060dd42bbc997860382f0b41a232f41ed624e8b45b991f2383365768480b9e4f3fc}
     dependencies:
       '@types/prop-types': 15.7.8
       '@types/scheduler': 0.16.4
