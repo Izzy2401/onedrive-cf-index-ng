@@ -13,7 +13,10 @@ import siteConfig from '../../config/site.config'
 import SearchModal from './SearchModal'
 import useDeviceOS from '../utils/useDeviceOS'
 
-
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const Navbar = () => {
   const router = useRouter()
