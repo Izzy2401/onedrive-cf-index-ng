@@ -999,7 +999,7 @@ packages:
       '@types/scheduler': 0.16.4
       csstype: 3.1.2
 
-   /@types/react@2.9.0:
+   /@types/react-bootstrap@2.9.0:
     resolution: {integrity: sha512-A0zjq+QN/O0Kpe30hA1GidzyFjatVvrpIvWLxD+xv67Vt91TWWgco9IvrJBkeyHm1trGaFS/FSGqPlhyeZRm0g==}
     dependencies:
       '@types/prop-types': 15.7.8
