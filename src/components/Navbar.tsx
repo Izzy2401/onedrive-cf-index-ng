@@ -67,19 +67,23 @@ const Navbar = () => {
           <span className="hidden font-bold sm:block">{siteConfig.title}</span>
         </Link>
 
-       /* <div className="dropdown">
-        <button className="dropbtn">External Sites 
-          <i className="fa fa-caret-down"></i>
-        </button>
-        <div className="dropdown-content">
-          <a href="https://www.example.com">Site 1</a>
-          <a href="https://www.example2.com">Site 2</a>
-          <a href="https://www.example3.com">Site 3</a>
-          <a href="https://www.example4.com">Site 4</a>
-          <a href="https://www.example5.com">Site 5</a>
-        </div>
-      </div>
-*/
+      function BasicExample() {
+  return (
+    <Dropdown>
+      <Dropdown.Toggle variant="success" id="dropdown-basic">
+        Dropdown Button
+      </Dropdown.Toggle>
+
+      <Dropdown.Menu>
+        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+      </Dropdown.Menu>
+    </Dropdown>
+  );
+}
+
+export default BasicExample;
 
         
         <div className="flex flex-1 items-center space-x-4 text-gray-700 md:flex-initial">
