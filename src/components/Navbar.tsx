@@ -55,19 +55,7 @@ const Navbar = () => {
     }, 1000)
   }
 
-  return (
-    <div className="sticky top-0 z-[100] border-b border-gray-900/10 bg-white bg-opacity-80 backdrop-blur-md dark:border-gray-500/30 dark:bg-gray-900">
-      <Toaster />
-
-      <SearchModal searchOpen={searchOpen} setSearchOpen={setSearchOpen} />
-
-      <div className="mx-auto flex w-full items-center justify-between space-x-4 px-4 py-1">
-        <Link href="/" passHref className="flex items-center space-x-2 py-2 hover:opacity-80 dark:text-white md:p-2">
-          <Image src={siteConfig.icon} alt="icon" width="25" height="25" priority />
-          <span className="hidden font-bold sm:block">{siteConfig.title}</span>
-        </Link>
-
-      function BasicExample() {
+function BasicExample() {
   return (
     <Dropdown>
       <Dropdown.Toggle variant="success" id="dropdown-basic">
@@ -83,7 +71,21 @@ const Navbar = () => {
   );
 }
 
-export default BasicExample;
+
+  
+  return (
+    <div className="sticky top-0 z-[100] border-b border-gray-900/10 bg-white bg-opacity-80 backdrop-blur-md dark:border-gray-500/30 dark:bg-gray-900">
+      <Toaster />
+
+      <SearchModal searchOpen={searchOpen} setSearchOpen={setSearchOpen} />
+
+      <div className="mx-auto flex w-full items-center justify-between space-x-4 px-4 py-1">
+        <Link href="/" passHref className="flex items-center space-x-2 py-2 hover:opacity-80 dark:text-white md:p-2">
+          <Image src={siteConfig.icon} alt="icon" width="25" height="25" priority />
+          <span className="hidden font-bold sm:block">{siteConfig.title}</span>
+        </Link>
+
+      
 
         
         <div className="flex flex-1 items-center space-x-4 text-gray-700 md:flex-initial">
@@ -208,5 +210,5 @@ export default BasicExample;
     </div>
   )
 }
-
+export default BasicExample;
 export default Navbar
