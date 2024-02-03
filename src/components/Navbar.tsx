@@ -13,6 +13,8 @@ import siteConfig from '../../config/site.config'
 import SearchModal from './SearchModal'
 import useDeviceOS from '../utils/useDeviceOS'
 
+import Dropdown from 'react-bootstrap/Dropdown' //We added this
+
 const Navbar = () => {
   const router = useRouter()
   const os = useDeviceOS()
@@ -65,7 +67,7 @@ const Navbar = () => {
           <span className="hidden font-bold sm:block">{siteConfig.title}</span>
         </Link>
 
-      <div className="dropdown">
+       /* <div className="dropdown">
         <button className="dropbtn">External Sites 
           <i className="fa fa-caret-down"></i>
         </button>
@@ -77,7 +79,7 @@ const Navbar = () => {
           <a href="https://www.example5.com">Site 5</a>
         </div>
       </div>
-
+*/
 
         
         <div className="flex flex-1 items-center space-x-4 text-gray-700 md:flex-initial">
