@@ -54,20 +54,6 @@ const Navbar = () => {
   }
 
   return (
-
- <div class="dropdown">
-    <button class="dropbtn">External Sites 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="https://www.example.com%22%3Esite/ 1</a>
-      <a href="https://www.example2.com%22%3Esite/ 2</a>
-      <a href="https://www.example3.com%22%3Esite/ 3</a>
-      <a href="https://www.example4.com%22%3Esite/ 4</a>
-      <a href="https://www.example5.com%22%3Esite/ 5</a>
-    </div>
-  </div>
-    
     <div className="sticky top-0 z-[100] border-b border-gray-900/10 bg-white bg-opacity-80 backdrop-blur-md dark:border-gray-500/30 dark:bg-gray-900">
       <Toaster />
 
